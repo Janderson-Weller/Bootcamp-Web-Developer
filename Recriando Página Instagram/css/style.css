@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 54rem;
+    height: 100vh;
+    /* width: 100%; */
+    background-color: #FAFAFA;
+    /* background-color: red; */
+}
+
+.container-iphone-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 30px;
+    background-image: url("../img/instagram1.png");
+    width: 250px;
+    height: 541px;
+    /* z-index: -1; */
+}
+
+#container-iphone-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 85px;
+    top: 10px;
+    border-radius: 30px;
+    background-image: url("../img/instagram2.png");
+    width: 250px;
+    height: 541px;
+    /* z-index: 1; */
+}
+
+.iphone-1 {
+    width: 270px;
+    height: 570px;
+    margin-top: 5px;
+    /* opacity: 0.4; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* height: 500px; */
+    /* border: 5px solid #0095F6; */
+}
+
+.container-profile, .container-account, .container-store {
+    display: flex;  
+    width: 22rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+    border: 1px solid #E4E1E1;
+}
+
+.container-profile {
+    margin-top: 50px;
+    flex-direction: column;
+    height: 20rem;
+    background-color: #FFFFFF;
+}
+
+.instagram {
+    margin-top: 30px;
+    width: 10rem;
+}
+
+.profile-user {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    overflow: hidden; /* Não permite a imagem transbordar a div*/
+}
+
+.button-user {
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #0095F6;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    border: none;
+} 
+
+.button-user:hover {
+    cursor: pointer;
+}
+
+a {
+    font-weight: bold;
+    color: #0095F6;
+}
+
+.container-account {
+    background-color: #FFFFFF;
+    height: 4rem;
+}
+
+.container-store {
+    height: 6rem;
+    flex-direction: column;
+    border: none;
+    background-color: none;
+}
+
+/* estilizando as imagens dos lojas */
+.lojas {
+    width: 8rem;
+}

@@ -1,0 +1,21 @@
+@media (max-width: 53rem) { /* Aproximadamente 850px */
+    .container-iphone-1 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 30rem) { /*  480px */
+    .container-profile, .container-account, .container-store {
+        border: none;
+        background-color: #FAFAFA;
+    }
+}
+
+@media (max-width: 19rem) {
+    .container-store-img{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
